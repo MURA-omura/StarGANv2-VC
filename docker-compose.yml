@@ -1,0 +1,17 @@
+version: "3"
+services:
+  trainer:
+    build: .
+    container_name: wwf-gan
+    volumes:
+      - ./:/app
+    ports:
+      - 8888:8888
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    tty: true

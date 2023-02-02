@@ -1,0 +1,10 @@
+click
+librosa
+munch
+parallel_wavegan
+pydub
+pyyaml
+SoundFile
+tensorboard
+torch
+torchaudio

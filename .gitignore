@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+*.pth
+*.pyc
+*.pkl
+
+/Data/
+!/Data/*.txt
+!/Data/*.ipynb
